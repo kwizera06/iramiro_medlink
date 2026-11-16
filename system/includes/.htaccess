@@ -1,0 +1,2 @@
+# Server-side code only — direct browser access skipped the login and role checks
+Require all denied

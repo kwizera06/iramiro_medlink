@@ -1,0 +1,21 @@
+medlink/sql/*.sql
+medlink/uploads/
+medlink/var/
+*.bak
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+
+# databases / dumps (keep medlink/migrations/*.sql: they are schema code)
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql.gz
+medlink/sql/
+continue-tools/_zzt_*.sql
+graphify-out/
+
+node_modules/
+tests/e2e/out/
+tests/e2e/.auth/
